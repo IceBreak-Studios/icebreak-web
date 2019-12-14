@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'LandingPage',
   data: () => ({})
 }
 </script>

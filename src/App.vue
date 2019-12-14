@@ -20,7 +20,7 @@
       <v-spacer/>
       <v-toolbar-items>
         <v-btn to="/">Home</v-btn>
-        <v-btn to="/about">About</v-btn>
+        <v-btn to="/games">Games</v-btn>
         <v-btn to="/privacypolicy">Privacy Policy</v-btn>
       </v-toolbar-items>
     </v-app-bar>
