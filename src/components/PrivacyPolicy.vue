@@ -253,5 +253,7 @@
   </v-container>
 </template>
 <script>
-
+export default {
+  name: 'privacy-policy'
+}
 </script>

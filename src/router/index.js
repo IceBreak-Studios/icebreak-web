@@ -21,10 +21,17 @@ const routes = [
     }
   },
   {
-    path: '/privacypolicy',
-    name: 'privacypolicy',
+    path: '/about',
+    name: 'about',
     component: function () {
-      return import(/* webpackChunkName: "privacypolicy" */ '../views/PrivacyPolicy.vue')
+      return import(/* webpackChunkName: "about" */ '../views/About.vue')
+    }
+  },
+  {
+    path: '/privacy-policy',
+    name: 'privacy-policy',
+    component: function () {
+      return import(/* webpackChunkName: "privacy-policy" */ '../components/PrivacyPolicy.vue')
     }
   }
 ]
