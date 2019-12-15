@@ -19,9 +19,9 @@
 
       <v-spacer/>
       <v-toolbar-items>
-        <v-btn to="/">Home</v-btn>
-        <v-btn to="/about">About</v-btn>
-        <v-btn to="/games">Games</v-btn>
+        <v-btn :to="{ name: 'Home'}">Home</v-btn>
+        <v-btn :to="{ name: 'About'}">About</v-btn>
+        <v-btn :to="{ name: 'Games'}">Games</v-btn>
       </v-toolbar-items>
     </v-app-bar>
 

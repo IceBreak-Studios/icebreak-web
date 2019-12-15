@@ -254,6 +254,6 @@
 </template>
 <script>
 export default {
-  name: 'privacy-policy'
+  name: 'PrivacyPolicy'
 }
 </script>
