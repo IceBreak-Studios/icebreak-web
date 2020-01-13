@@ -6,9 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: process.env.NODE_ENV === 'production'
-      ? '/icebreak-web'
-      : '/',
+    path: '/',
     name: 'Home',
     component: Home
   },
