@@ -17,7 +17,7 @@ export default {
   components: {}
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
   .welcome-header {
     font-size: 50px;
     text-align: center;
